@@ -34,9 +34,12 @@ A 3D soccer game built from scratch in C++ using OpenGL 4.5.
 
 ### Requirements
 
-- CMake 3.20+
-- C++17 compatible compiler (MSVC, GCC, Clang)
-- Windows (SDL2 and other dependencies are fetched automatically)
+- CMake 3.21+
+- C++20 compatible compiler (MSVC 2019+, GCC 10+, Clang 10+)
+- GPU with OpenGL 4.5 support (most GPUs from 2012+)
+- **Windows or Linux** (macOS not supported due to OpenGL 4.5 requirement)
+
+All dependencies (SDL2, GLM, spdlog, GLAD) are fetched automatically by CMake.
 
 ### Build Steps
 
