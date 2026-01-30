@@ -1,0 +1,32 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+dist/
+
+# IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+.idea/
+
+# Compiled files
+*.obj
+*.o
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+
+# Dependencies (fetched by CMake)
+_deps/
+
+# Generated files
+compile_commands.json
+
+# OS files
+.DS_Store
+Thumbs.db
